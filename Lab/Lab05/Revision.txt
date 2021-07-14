@@ -1,0 +1,35 @@
+1.Create 11.txt,112.txt, 123.txt,11.a,112.b, 123.c
+Using "find" and "grep" command and pipes, find all of the *.txt files with 11.
+
+2. Count how many lines there are in the file /etc/passwd
+
+3. Now find all occurrences of the text var in the file /etc/passwd.
+
+================================================
+
+Use an editor such as nano or vim to copy the text below into a file called people:
+Personal       J.Smith       25000
+Personal       E.Smith       25400
+Training       A.Brown       27500
+Training       C.Browen      23400
+(Admin)        R.Bron        30500
+Goodsout       T.Smyth       30000
+Personal       F.Jones       25000
+training*      C.Evans       25500
+Goodsout       W.Pope        30400
+Groundfloor    T.Smythe      30500
+Personal       J.Maler       33000
+
+4. Display the file people and examine its contents.
+5. Find all lines containing the string Smith in the file people.Hint: use the command grep but remember that by default, it is case sensitive.
+5. Create a new file, npeople, containing all lines beginning with the string Personal in the people file.Hint: use the command grep with >.
+6. Confirm the contents of the file npeople by listing the file.
+7. Now append all lines where the text ends with the string 500 in the file people to the file npeople.Hint: use the command grep with >>.
+8. Again, confirm the contents of the file npeople by listing the file.
+
+9. Find all lines containing the names Evans or Maler in the file people.
+10. Find all lines containing the names Smith, Smyth or Smythe in the file people.
+11. Find all lines containing the names Brown, Browen or Bron in the file people.If you have time:
+12. Find the line containing the string (admin), including the brackets, in the file people.
+13. Find the line containing the character * in the file people.
+14. Combine 5 and 6 above to find both expressions.
