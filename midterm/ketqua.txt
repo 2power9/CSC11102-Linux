@@ -1,0 +1,8 @@
+Ho va ten: Tran Nguyen Hue Nhu
+MSSV: 19126028
+# Doan nay em paste them vao de lam bai
+1:Nguyen Van An:7:5
+2:Le Thi Binh:9:6
+3:Nguyen Van Cong:9:9
+4:Dinh Thi Thi:7:7
+5:Nguyen Thi Tham:8:7
